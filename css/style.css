@@ -1,0 +1,80 @@
+body {
+	background: url('../images/background.jpg');
+	background-repeat: repeat-x;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+.page {
+	max-width: 600px;
+	margin: 10px auto;
+	background-color: rgb(240, 208, 26);
+	padding: 20px 30px;
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+header {
+	padding: 10px 15px;
+}
+
+#center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Forms */
+form {
+	background-color:  rgb(245, 240, 223);
+}
+
+label {
+	font-weight: bold;
+	display: block;
+	margin: 5px;
+}
+
+select {
+    border-radius: 0px;
+    background: white;
+    padding: 5px;
+    width: 50%;
+}
+
+.radiobtn {
+	margin: 5px;
+}
+
+.button {
+	background: rgb(240, 208, 26);
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+	outline: none;
+	margin: 5px;
+}
+
+.button:hover {
+	background: #ffe766;
+}
+
+li {
+	list-style-position: inside;
+}
+
+footer {
+	padding: 5px;
+	margin: 10px 0px;
+}
